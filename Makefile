@@ -6,7 +6,7 @@
 #    By: lgarczyn <lgarczyn@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/01/22 17:11:22 by lgarczyn          #+#    #+#              #
-#    Updated: 2016/04/09 18:26:34 by lgarczyn         ###   ########.fr        #
+#    Updated: 2016/05/30 17:20:21 by lgarczyn         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -36,7 +36,7 @@ LIB =	-I minilibx_macos \
 
 DEB = -g
 
-OPT = -O3 -ffast-math
+OPT = -Ofast -ffast-math
 
 all: $(NAME)
 
